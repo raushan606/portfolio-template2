@@ -29,21 +29,24 @@ color: #A17917;
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
 .side {
-  flex: 29%;
+  flex: 25%;
   background-color: #f1f1f1;
   padding: 20px;
-    margin: 2px;
+    margin: 12px;
+    margin-left: 24px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
         font-family: 'Lora', serif;
 }
 
 
 /* Main column */
 .main {
-  flex: 70%;
+  flex: 69%;
   background-color: white;
   padding: 20px;
-     margin: 2px;
+     margin: 12px;
     font-family: 'Lora', serif;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
 }
 
 
@@ -52,7 +55,8 @@ img {
     height: 250px;
  position: relative;
     left: 50px;
-   box-shadow: 3px 3px tomato;
+   box-shadow: 0 4px 28px 0 rgba(118,53,104,0.7), 0 6px 20px 0 rgba(118,53,104,0.7);
+    border-radius: 2%;
 }
 .fa, .fas{
     padding-top: 12px;
