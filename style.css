@@ -15,7 +15,10 @@ p{
 h5{
 color: #A17917;
 }
-
+.icon-bar{
+    margin-left: 12px;
+    
+}
 
 /* Column container */
 .row {  
@@ -141,3 +144,7 @@ i{
         font-size: 12px;
     }
 }
+
+
+
+
