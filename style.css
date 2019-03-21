@@ -1,13 +1,20 @@
-* {
-  box-sizing: border-box;
-}
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 
 body {
-  font-family: Arial;
+  font-family: 'Raleway', sans-serif;
   margin: 0;
+    
+    
 }
-
-
+h2{
+    color: #F9690E;
+}
+p{
+    color: #6C7A89;
+}
+h5{
+color: #A17917;
+}
 
 
 /* Column container */
@@ -23,8 +30,9 @@ body {
   background-color: #f1f1f1;
   padding: 20px;
     margin: 2px;
-    
+        font-family: 'Lora', serif;
 }
+
 
 /* Main column */
 .main {
@@ -32,6 +40,7 @@ body {
   background-color: white;
   padding: 20px;
      margin: 2px;
+    font-family: 'Lora', serif;
 }
 
 
@@ -40,25 +49,80 @@ img {
     height: 250px;
  position: relative;
     left: 50px;
+   box-shadow: 3px 3px tomato;
 }
 .fa, .fas{
     padding-top: 12px;
     padding-left: 18px;
 }
-a{
+.mail{
     text-decoration: none;
     color: black;
+    font-size: 17px;
 }
-a:hover{
+.mail:hover{
     color: red;
 }
-
-/* Footer */
-.footer {
-  padding: 20px;
-  text-align: center;
-  background: #ddd;
+.skills{
+    padding-left: 12px;
 }
+.fa-calendar{
+    padding: 0;
+    padding-bottom: 12px;
+}
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.card-grid {
+  width:100%;
+}
+.card-grid:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+.card-wrap {
+  float:left;
+  width:100%;
+  padding: 15px;
+}
+@media (min-width: 500px) {
+  .card-wrap {
+    width:50%;
+  }
+}
+@media (min-width: 720px) {
+  .card-wrap {
+    width:25%;
+  }
+}
+
+hr{
+    background-color: red;
+}
+.card {
+  background-color: white;
+ border: 0px;
+ box-shadow: 0px 2px blue;
+  border-bottom: 12px solid blue;
+}
+
+.card > div {
+  padding:0 1em;
+}
+
+i{
+    color: teal;
+    margin-right: 12px;
+}
+
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 700px) {
@@ -73,6 +137,7 @@ a:hover{
     .fa, .fas{
         padding-left: 1px;
     }
-    
-
+    .mail{
+        font-size: 12px;
+    }
 }
