@@ -23,6 +23,7 @@ body {
   background-color: #f1f1f1;
   padding: 20px;
     margin: 2px;
+    
 }
 
 /* Main column */
@@ -40,6 +41,17 @@ img {
  position: relative;
     left: 50px;
 }
+.fa, .fas{
+    padding-top: 12px;
+    padding-left: 18px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: red;
+}
 
 /* Footer */
 .footer {
@@ -56,5 +68,11 @@ img {
   }
     img{
         left: 0;
+        padding: 0;
     }
+    .fa, .fas{
+        padding-left: 1px;
+    }
+    
+
 }
